@@ -1,12 +1,13 @@
 {
-	"name": "noahbuscher/macaw",
-	"description": "Simple PHP router class.",
-	"license": "MIT",
-	"require": {
-		"php": ">=5.3.3"
-	},
-	
-	"autoload": {
-		"psr-4": {"NoahBuscher\\Macaw\\": ""}
-	}
+  "name": "dianjoy/macaw",
+  "description": "Simple PHP router class. Forked from noahbuscher/Macaw, added our auth code.",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "dianjoys\\Macaw\\": ""
+    }
+  }
 }

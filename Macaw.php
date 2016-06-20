@@ -1,6 +1,6 @@
 <?php
 
-namespace NoahBuscher\Macaw;
+namespace dianjoy\Macaw;
 
 /**
  * @method static Macaw get(string $route, Callable $callback)
@@ -9,6 +9,7 @@ namespace NoahBuscher\Macaw;
  * @method static Macaw delete(string $route, Callable $callback)
  * @method static Macaw options(string $route, Callable $callback)
  * @method static Macaw head(string $route, Callable $callback)
+ * @method static Macaw patch(string $route, Callable $callback)
  */
 class Macaw {
   public static $halts = false;
